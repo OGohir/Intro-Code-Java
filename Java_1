@@ -1,0 +1,13 @@
+public class Preferences
+{
+    String favouriteSong;
+    double averageTimeListening;
+    
+    void setFavouriteSong(String song) {
+        favouriteSong = song;
+    }
+    
+    void setAverageTimeListening(double time) {
+        averageTimeListening = time;
+    }
+}
