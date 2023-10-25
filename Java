@@ -1,0 +1,19 @@
+public class Song
+{
+    String title;
+    int duration;
+    int timesPlayed;
+    
+    void setTitle(String newTitle) {
+        title = newTitle;
+    }
+    
+    void setDuration(int newDuration) {
+        duration = newDuration;
+    }
+
+    void setTimesPlayed(int newTimesPlayed) {
+        timesPlayed = newTimesPlayed;
+    }
+}
+        
